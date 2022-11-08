@@ -18,7 +18,7 @@ def remove_Spaces(program):
     for line in prog:
         if (line.strip() != ''):
             scanned_Program.append(line.strip())
-    return scanned_Program
+    return scanned_Program 
 
 
 def remove_Comments(program):
